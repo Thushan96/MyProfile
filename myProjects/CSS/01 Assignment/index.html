@@ -41,8 +41,8 @@
             position: absolute;
             z-index: 200;
             background-color: white;
-            width: 100px;
-            height: 100px;
+            width: 125px;
+            height: 125px;
 
         }
 
@@ -80,12 +80,65 @@
             height: 200px;
         }
 
-        body > div:nth-child(10){
+        body>div>div{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            border-radius: 100%;
+            background-color: red;
+            margin: auto;
+            width: 120px;
+            height: 120px;
+       }
 
+        body>div:nth-child(10){
+            width: 200px;
+            height: 100px;
+            right: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            border-bottom-right-radius: 108px;
+            border-bottom-left-radius: 108px;
         }
 
-        body > div:nth-child(11){
+        body>div:nth-child(11){
+            width: 200px;
+            height: 100px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            border-top-right-radius: 108px;
+            border-top-left-radius: 108px;
+        }
 
+        section > div {
+            width: 200px;
+            height: 200px;
+            background: white;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 100%;
+        }
+
+        section > div > div {
+            width: 80px;
+            height: 80px;
+            background: red;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin:auto;
         }
 
     </style>
@@ -93,23 +146,39 @@
 <body>
 <!--main sections-->
 <section>
-
+    <div>
+        <div></div>
+    </div>
 </section>
 <section>
-
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
 </section>
 
 <section>
-</section>
-
-<section>
-
+    <div>
+        <div></div>
+    </div>
 </section>
 
 <!--for circles-->
 <div></div>
 <div></div>
 <div></div>
+<div></div>
+
+<!--middle box-->
+<div>
+    <div></div>
+</div>
+
+<!--middle half circles-->
 <div></div>
 <div></div>
 
