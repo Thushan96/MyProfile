@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 1 (Using Absolute & Relative)</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <style>
+
+        body > section {
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+            z-index: 100;
+        }
+
+        body > section:nth-child(1) {
+            background: red;
+            left: 0;
+            top: 0;
+        }
+
+        body > section:nth-child(2) {
+            background: green;
+            right: 0;
+            top: 0;
+        }
+
+        body > section:nth-child(3) {
+            background: orange;
+            bottom: 0;
+            left: 0;
+        }
+
+        body > section:nth-child(4) {
+            background: deeppink;
+            right: 0;
+            bottom: 0;
+        }
+
+        body > div {
+            position: absolute;
+            z-index: 200;
+            background-color: white;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        body > div:nth-child(5){
+            border-bottom-right-radius: 90px;
+            left: 0;
+            top: 0;
+        }
+
+        body > div:nth-child(6){
+            border-bottom-left-radius: 90px;
+            right: 0;
+            top: 0;
+        }
+
+        body > div:nth-child(7){
+            border-top-right-radius: 90px;
+            left: 0;
+            bottom: 0;
+        }
+
+        body > div:nth-child(8){
+            border-top-left-radius: 90px;
+            right: 0;
+            bottom: 0;
+        }
+
+        body > div:nth-child(9){
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            width: 200px;
+            height: 200px;
+        }
+
+        body > div:nth-child(10){
+
+        }
+
+        body > div:nth-child(11){
+
+        }
+
+    </style>
+</head>
+<body>
+<!--main sections-->
+<section>
+
+</section>
+<section>
+
+</section>
+
+<section>
+</section>
+
+<section>
+
+</section>
+
+<!--for circles-->
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+</body>
+</html>
