@@ -2,49 +2,193 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+    <title>Case 2</title>
+    <link href="assets/CSS/normalize.css" rel="stylesheet">
+
     <style>
-
-        body > section> pre{
-            position: absolute;
-            font-family: 'Readex Pro', sans-serif;
-        }
-
-        body > section> pre:nth-child(1){
-            left: 70%;
-            right: 30%;
-        }
-
-        body > section> pre:nth-child(2){
-            left: 80%;
-            right: 20%;
-        }
-
-        body > section > pre:nth-child(3){
-            left: 90%;
-            right: 10%;
-        }
-        body>section:nth-child(2){
-            background-color: black;
-            width: 2em;
+        header{
             position: relative;
-            border: 2px solid black;
+            height: 80px;
+            box-shadow: 0px 8px 0px 3px blueviolet;
+
         }
+
+        main{
+            position: relative;
+        }
+
+        main>section{
+            margin: 10px 10px 0px
+
+        }
+
+        header>img{
+            width: 300px;
+            margin: 18px;
+        }
+
+        header>ul{
+            position: absolute;
+            right: 30px;
+            bottom: 0;
+            list-style: none;
+            top: 0;
+            margin: auto;
+            height: 30px;
+            font-size: 20px;
+            font-family: -webkit-body;
+        }
+
+        header>ul>li{
+            padding: 0 10px 0 10px;
+            display: inline-block;
+        }
+
+        header>ul>li:hover{
+            cursor: pointer;
+            color: darkgoldenrod;
+        }
+
+        main>section>section>div{
+            display: inline-block;
+            position: relative;
+
+        }
+
+        main>section>section>div>img{
+            width: 28vw;
+            height: 30vh;
+            margin: auto;
+            position: relative;
+            left: 180px;
+            border: solid 2px darkgoldenrod;
+            padding-right: 0px;
+
+        }
+
+        main>nav{
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            width: 180px;
+            background-color: darkmagenta;
+        }
+
+        main>nav>ul{
+            list-style: none;
+            left: 0;
+            position: relative;
+            margin: auto;
+            top: 0;
+            padding: 10px;
+
+        }
+
+        main>nav>ul>li{
+            font-family: "Eras Bold ITC";
+            padding-bottom: 10px;
+            color: white;
+
+        }
+
+        main>nav>ul>li:hover{
+            cursor: pointer;
+        }
+
+        main>section>p{
+            margin-left: 179px;
+        }
+
+        footer{
+            background-color: dimgrey;
+            height: 30px;
+            position: relative;
+        }
+
+        footer>p{
+            display: inline-block;
+            position: absolute;
+            margin: auto;
+            right: 50vw;
+            bottom: 0px;
+        }
+
+        section>p:last-child{
+            margin-bottom: 0;
+        }
+
 
     </style>
 </head>
 <body>
-<section>
-<pre>Home</pre>
-<pre>Services</pre>
-<pre>Contact us</pre>
-</section>
-<section>
+<header>
+    <img src="assets/images/unnamed.png">
 
-</section>
+    <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>About</li>
+        <li>Contact Us</li>
+    </ul>
+
+</header>
+<main>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact Us</li>
+
+        </ul>
+    </nav>
+
+    <section>
+        <section>
+            <div>
+                <img src="assets/images/Top-6-Software-Development-Methodologies.jpg" alt="software">
+            </div>
+            <div>
+                <img src="assets/images/Top-6-Software-Development-Methodologies.jpg" alt="software">
+            </div>
+            <div>
+                <img src="assets/images/Top-6-Software-Development-Methodologies.jpg" alt="software">
+            </div>
+        </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam aspernatur, blanditiis cum cumque
+            deserunt dignissimos dolore dolorem doloremque eaque et, in incidunt laboriosam laborum minima mollitia
+            optio provident unde.</p>
+        <p>Commodi culpa distinctio doloribus dolorum nemo ratione reprehenderit, sed sit. Accusamus aliquid aperiam,
+            beatae dicta error eveniet id labore laborum modi mollitia necessitatibus nisi nobis quidem sequi similique,
+            ullam voluptatibus?</p>
+        <p>Asperiores distinctio dolorem ducimus error quaerat repudiandae sit. Amet eligendi eveniet labore qui unde.
+            Aliquam asperiores, aspernatur commodi consequuntur cumque cupiditate eius harum id impedit, ipsa, saepe
+            suscipit vel vitae!</p>
+        <p>Autem deleniti dolorum esse hic labore laborum modi molestiae officiis praesentium quas, recusandae
+            repellendus, reprehenderit sint sunt ullam velit voluptatem. Accusamus adipisci fugit laborum magnam nobis
+            non numquam sapiente sed?</p>
+        <p>Eaque, ex fugit illum inventore ipsa laboriosam maiores nam nihil nobis quod rem repellat soluta ut!
+            Accusamus architecto consectetur cupiditate doloribus odit praesentium quibusdam. Adipisci fugiat nemo
+            obcaecati quis voluptates.</p>
+        <p>Ab accusamus, aliquam beatae commodi, consequatur ducimus excepturi fuga fugit hic illum ipsam iusto labore
+            magnam minus optio possimus, quam quidem quis repellendus reprehenderit repudiandae sint soluta sunt
+            suscipit veritatis.</p>
+        <p>Deleniti ea laboriosam quaerat quam. At doloribus quasi qui ratione. Accusantium aperiam aut commodi
+            consequatur, distinctio dolores esse itaque molestias praesentium quae repellat reprehenderit sed vel.
+            Nesciunt qui sequi veniam.</p>
+        <p>Ad doloremque in ipsa, labore laborum, nulla odio reprehenderit sequi tempora veritatis, vitae voluptatum?
+            Accusamus accusantium atque dolor, dolorum est facere fugit ipsum libero, molestias nulla pariatur
+            recusandae repudiandae tempora!</p>
+
+
+    </section>
+
+
+</main>
+<footer>
+    <p>Developed by Thushan</p>
+</footer>
 
 </body>
 </html>
