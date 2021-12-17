@@ -1,0 +1,139 @@
+header{
+    background-color: grey;
+    position: relative;
+    height: 8vh;
+    box-shadow: 1px 1px 1px 2px brown;
+}
+
+header>nav>ul{
+    position: absolute;
+    list-style: none;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 30px;
+    font-family: Arial;
+    font-size: 3vh;
+}
+
+header>nav>ul>li{
+    display: inline-block;
+    padding: 0 5vh 0 5vh;
+}
+
+header a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+main>section:nth-child(1){
+    background-color: black;
+    position: relative;
+    height: 90vh;
+}
+
+main>section:nth-child(1)>div{
+    margin: auto;
+    position: relative;
+    top: 15vh;
+    display: inline-block;
+}
+
+main>section:nth-child(1)>div>pre{
+    margin: auto;
+    color: white;
+    font-family: cursive;
+    font-size: 4vh;
+    position: relative;
+}
+
+
+main>section:nth-child(1)>section:nth-child(2){
+    position: absolute;
+    height: 90vh;
+    width: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+
+main>section:nth-child(1)>section:nth-child(2)>img{
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    left: 0;
+    height: 100%;
+
+}
+
+main>section:nth-child(1)>a{
+    position: absolute;
+    margin: auto;
+    bottom: 2vh;
+}
+
+main>section:nth-child(1)>section:nth-child(3){
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    display: inline-block;
+
+}
+
+#hire{
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30%;
+    border: 7px solid red;
+    position: relative;
+    left: 7vw;
+    font-size: xx-large;
+    margin-top: 2vh;
+}
+
+#hire:hover{
+    border-color: chartreuse;
+}
+
+#pre01{
+    margin-left: -5vw;
+}
+
+#pre02{
+    margin-left: 9vw;
+    margin-top: -3vh;
+}
+
+#pre03{
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+
+#pre04{
+    margin-top: 3vh;
+    margin-left: 7vw;
+}
+
+#pre05{
+    margin-top: 3vh;
+    margin-left: 9vw;
+}
+
+#pre06{
+    margin-top: 2vh;
+    margin-left: 6vw;
+}
