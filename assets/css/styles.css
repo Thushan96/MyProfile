@@ -1,8 +1,9 @@
 header{
     background-color: grey;
     position: relative;
-    height: 8vh;
-    box-shadow: 1px 1px 1px 2px brown;
+    height: 8.5vh;
+    width: 100%;
+    box-shadow: 1vw 1vh 1vw 2vh brown;
 }
 
 header>nav>ul{
@@ -12,14 +13,14 @@ header>nav>ul{
     top: 0;
     bottom: 0;
     margin: auto;
-    height: 30px;
-    font-family: Arial;
-    font-size: 3vh;
+    padding-top: 2vh;
+    font-family: revert;
+    font-size: 1.3rem;
 }
 
 header>nav>ul>li{
     display: inline-block;
-    padding: 0 5vh 0 5vh;
+    padding: 0 2vh 0 3vh;
 }
 
 header a:link {
@@ -43,9 +44,9 @@ main>section:nth-child(1){
 }
 
 main>section:nth-child(1)>div{
-    margin: auto;
+    margin-left: 10vw;
     position: relative;
-    top: 15vh;
+    top: 8vh;
     display: inline-block;
 }
 
@@ -85,10 +86,14 @@ main>section:nth-child(1)>a{
 main>section:nth-child(1)>section:nth-child(3){
     position: absolute;
     margin: auto;
-    top: 0;
-    left: 0;
     display: inline-block;
+    bottom: 7vh;
+    left: 7vw;
+    width: 47vw;
+}
 
+main>section:nth-child(1)>section:nth-child(3)>a{
+    padding-left: 5%;
 }
 
 #hire{
@@ -98,11 +103,11 @@ main>section:nth-child(1)>section:nth-child(3){
     text-decoration: none;
     display: inline-block;
     border-radius: 30%;
-    border: 7px solid red;
+    border: 7px solid cadetblue;
     position: relative;
     left: 7vw;
     font-size: xx-large;
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 
 #hire:hover{
@@ -110,22 +115,23 @@ main>section:nth-child(1)>section:nth-child(3){
 }
 
 #pre01{
-    margin-left: -5vw;
+    margin-left: 7%;
 }
 
 #pre02{
-    margin-left: 9vw;
-    margin-top: -3vh;
+    margin-left: 11vw;
+    margin-top: -1vh;
 }
 
 #pre03{
+    font-size: 2.3em;
     margin-top: 4vh;
-    margin-left: 3vw;
+    color: orange;
 }
 
 #pre04{
     margin-top: 3vh;
-    margin-left: 7vw;
+    margin-left: 4vw;
 }
 
 #pre05{
@@ -136,4 +142,9 @@ main>section:nth-child(1)>section:nth-child(3){
 #pre06{
     margin-top: 2vh;
     margin-left: 6vw;
+}
+
+.Developer{
+    color: red;
+    font-size: 2em;
 }
