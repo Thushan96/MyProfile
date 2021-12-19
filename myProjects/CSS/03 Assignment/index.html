@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Case 3</title>
-    <link href="assests/css/normalize.css" rel="stylesheet">
-
     <style>
-
 
         body>section>section:nth-child(1){
             border: 17px solid dimgrey;
@@ -19,6 +16,7 @@
             right: 0;
             top: 0;
             bottom: 0;
+            z-index: 100;
         }
         body>section>section:nth-child(2){
             border: 17px solid red;
@@ -31,6 +29,16 @@
             right: 0;
             top: 0;
             bottom: 0;
+            z-index: 100;
+
+        }
+
+
+
+        .a{
+            position: relative;
+            height: 100vh;
+            border: 5px solid white;
         }
 
         div{
@@ -44,26 +52,28 @@
             top: 0;
             bottom: 0;
         }
-
-
-        body>section:nth-child(2){
-         position: relative;
-            height: 100vh;
+        pre{
+            font-family: Arial;
+            color: white;
+            text-align: center;
+            padding-top: 40%;
+            font-size: xx-large;
         }
 
-
-        section:nth-child(2)>div:nth-child(1){
+        section:nth-child(2)>div{
             background-color: darkmagenta;
             margin-bottom: 35%;
-            margin-top: 13%;
+            margin-top: 12.5%;
         }
-
-        section:nth-child(2)>div:nth-child(2){
+        section:nth-child(3)>div{
             background-color: cornflowerblue;
             margin-bottom: 35%;
+            margin-top: 12.5%;
         }
-        section:nth-child(2)>div:nth-child(3){
+        section:nth-child(4)>div{
             background-color: darkorange;
+            margin-bottom: 35%;
+            margin-top: 14.2%;
         }
 
         pre{
@@ -74,28 +84,32 @@
             font-size: xx-large;
         }
 
-        section>div:nth-child(3)>pre{
+        section:nth-child(4)>div>pre{
             padding-top: 20%;
             padding-right: 69%;
         }
-    </style>
 
+
+    </style>
 </head>
 <body>
 <section>
-<section></section>
-<section></section>
+    <section></section>
+    <section></section>
 </section>
 
-<section>
+<section class="a">
     <div>
         <pre id="01">Hello</pre>
     </div>
-
+</section>
+<section class="a">
     <div>
         <pre id="02">Wel come To</pre>
     </div>
 
+</section>
+<section class="a">
     <div><pre>
          Institute
              Of
@@ -103,9 +117,6 @@
         Engineering
         </pre>
     </div>
-
-    <div></div>
 </section>
-
 </body>
 </html>
