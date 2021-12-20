@@ -1,26 +1,26 @@
 header{
     background-color: grey;
-    position: relative;
+    position: fixed;
     height: 8.5vh;
     width: 100%;
-    box-shadow: 1vw 1vh 1vw 2vh brown;
+    top: 0;
+    z-index: 100;
 }
 
 header>nav>ul{
-    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: center;
     list-style: none;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
     padding-top: 2vh;
     font-family: revert;
     font-size: 1.3rem;
+    margin: 0;
 }
 
 header>nav>ul>li{
-    display: inline-block;
-    padding: 0 2vh 0 3vh;
+    flex-grow:1;
+
 }
 
 header a:link {
@@ -31,6 +31,7 @@ header a:link {
 a:hover {
     text-decoration: underline;
     color: red;
+    background: black;
 }
 
 a:active {
@@ -40,13 +41,13 @@ a:active {
 main>section:nth-child(1){
     background-color: black;
     position: relative;
-    height: 90vh;
+    height: 100vh;
 }
 
 main>section:nth-child(1)>div{
     margin-left: 10vw;
     position: relative;
-    top: 8vh;
+    top: 14vh;
     display: inline-block;
 }
 
@@ -87,7 +88,7 @@ main>section:nth-child(1)>section:nth-child(3){
     position: absolute;
     margin: auto;
     display: inline-block;
-    bottom: 7vh;
+    bottom: 5vh;
     left: 7vw;
     width: 47vw;
 }
@@ -147,4 +148,10 @@ main>section:nth-child(1)>section:nth-child(3)>a{
 .Developer{
     color: red;
     font-size: 2em;
+}
+
+.fa-mobile-alt{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 8%;
 }
