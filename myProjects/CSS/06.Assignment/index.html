@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>In class Transitions01</title>
+    <title>Transitions</title>
     <link href="../../../assets/css/fonts/css/all.css" rel="stylesheet">
     <link href="../../../assets/css/normalize.css" rel="stylesheet">
 
@@ -14,7 +14,7 @@
             position: relative;
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: space-around;
             right: 172px;
         }
 
@@ -42,40 +42,52 @@
         }
 
         section > div:hover {
-            background: green;
+            background: chartreuse;
             left: 172px;
             cursor: pointer;
             transition: all 2s;
         }
 
-
+        p{
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            color: #ff025f;
+            font-size: 4em;
+            margin: 0;
+        }
     </style>
 
 
 </head>
 <body>
+<P>Transitions</P>
+
+<section>
 
 <div>
     <h3>Menu One</h3>
-    <i class="fa fa-id-card-o" aria-hidden="true"></i>
-</div>
+    <i class="fa fa-car" aria-hidden="true"></i></div>
 <div>
     <h3>Menu Two</h3>
-    <i class="fa fa-address-book-o" aria-hidden="true"></i>
+    <i class="fa fa-address-book" aria-hidden="true"></i>
 </div>
 <div>
     <h3>Menu Three</h3>
-    <i class="fa fa-etsy" aria-hidden="true"></i>
+    <i class="fa fa-university" aria-hidden="true"></i>
 </div>
 <div>
     <h3>Menu Four</h3>
-    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+    <i class="fa fa-balance-scale" aria-hidden="true"></i>
 </div>
 <div>
     <h3>Menu Five</h3>
-    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+    <i class="fa fa-bicycle" aria-hidden="true"></i>
 </div>
 
+</section>
 
 </body>
 </html>
