@@ -1,3 +1,4 @@
+/*header*/
 header{
     background-color: grey;
     position: fixed;
@@ -5,6 +6,7 @@ header{
     width: 100%;
     top: 0;
     z-index: 100;
+    border-bottom: 1px solid white;
 }
 
 header>nav>ul{
@@ -37,6 +39,8 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+
+/*section 1*/
 
 main>section:nth-child(1){
     background-color: black;
@@ -156,6 +160,8 @@ main>section:nth-child(1)>section:nth-child(3)>a{
     margin-left: 8%;
 }
 
+/*section 2*/
+
 main>section:nth-child(2){
     background-color: grey;
     position: relative;
@@ -164,4 +170,139 @@ main>section:nth-child(2){
 
 main>section:nth-child(2)>h1 {
     margin: auto;
+    width: max-content;
+    height: max-content;
+    left: 3vw;
+    display: inline-block;
+    top: 4vh;
+    color: white;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: yellow;
 }
+
+main>section:nth-child(2)>img{
+    position: absolute;
+    left: 5vw;
+    top:15vh;
+
+}
+
+main>section:nth-child(2)>p{
+    position: absolute;
+    font-size: 2.1em;
+    font-family: 'Merriweather', serif;
+    right: 10vw;
+    bottom: 30vh;
+    display: inline-block;
+    margin-left: 43vw;
+    color: #eeeeee;
+}
+
+main>section:nth-child(2)>a{
+    position: absolute;
+    right: 43vw;
+    bottom: 23vh;
+    border: 6px solid cornflowerblue;
+}
+
+main>section:nth-child(2)>a>button{
+    font-size: 1.5em;
+    color:red;
+    background-color: black;
+}
+
+main>section:nth-child(2)>a>button:hover{
+    cursor: pointer;
+    color: yellowgreen;
+}
+/*section 3*/
+
+main>section:nth-child(3){
+    background-color: lightgray;
+    position: relative;
+    height: 75vh;
+}
+
+main>section:nth-child(3)>h1 {
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    left: 3vw;
+    display: inline-block;
+    top: 4vh;
+    color: black;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: yellow;
+}
+
+main>section:nth-child(3)>div>h3{
+    margin:0; padding:0; box-sizing:border-box;
+}
+
+main>section:nth-child(3)>div>h3>pre {
+background-color: black;
+}
+main>section:nth-child(3)>div{
+    top: 31vh;
+    font-size: 2em;
+    height: 50px;
+    width: 250px;
+    margin: auto;
+}
+
+.divservice1{
+    left: 8vw;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divservice2{
+    right: 0;
+    left: 0;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divservice3{
+    right: 8.5vw;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*4th section*/
+
+main>section:nth-child(4){
+    background-color: grey;
+    position: relative;
+    height: 100vh;
+}
+
+main>section:nth-child(4)>h1 {
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    left: 3vw;
+    display: inline-block;
+    top: 4vh;
+    color: white;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: yellow;
+}
+
+
+
