@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animations case 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        section{
+            height: 95vh;
+            position: relative;
+        }
+        section>div{
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 260px;
+            width: 260px;
+            position: absolute;
+            border-radius: 100%;
+            animation-name:test;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+
+        }
+
+        section:active{
+            /*transform: scale(0, 0);*/
+            /*opacity: 0.3;*/
+            /*transition: 0s;*/
+        }
+
+        section:hover {
+            /*transition: 0.5s;*/
+            /*cursor: pointer;*/
+            /*!* transform: translate3d(0, 0, 0); *!*/
+        }
+
+        section:after {
+            /*position: absolute;*/
+            /*content: "";*/
+            /*width: 10%;*/
+            /*height: 100%;*/
+            /*pointer-events: none;*/
+            /*background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);*/
+            /*transform: scale(10, 10);*/
+            /*opacity: 0;*/
+            /*transition: transform 0.3s, opacity 1s;*/
+        }
+        section:active:after {
+            /*transform: scale(0, 0);*/
+            /*opacity: 0.3;*/
+            /*transition: 0s;*/
+        }
+
+        @keyframes test {
+            from{
+                border: 4px solid red;
+                height: 60px;
+                width: 60px;
+            }
+            to{
+                border: 2px solid white;
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
