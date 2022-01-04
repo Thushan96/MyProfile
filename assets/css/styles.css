@@ -18,6 +18,7 @@ header>nav>ul{
     font-family: revert;
     font-size: 1.3rem;
     margin: 0;
+    padding-left: 300px;
 }
 
 header>nav>ul>li{
@@ -246,7 +247,7 @@ background-color: black;
 }
 main>section:nth-child(3)>div{
     top: 31vh;
-    font-size: 2em;
+    font-size: 1.57em;
     height: 50px;
     width: 250px;
     margin: auto;
@@ -302,6 +303,87 @@ main>section:nth-child(4)>h1 {
     position: relative;
     text-decoration:underline;
     text-decoration-color: yellow;
+}
+
+main>section:nth-child(4) h2{
+    color: gainsboro;
+    margin: auto;
+    left: 7vw;
+    width: max-content;
+    height: max-content;
+    display: inline-block;
+    position: absolute;
+    top: 9vh;
+
+}
+
+main>section:nth-child(4)>section section{
+    top: 5vh;
+    height: 23vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 65px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 12vh;
+    border-radius: 25%;
+    background-color: lightgray;
+}
+
+main>section:nth-child(4)>section{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+
+}
+
+
+.p1{
+    padding-left: 33px;
+}
+
+.p2{
+    padding-left: 16px;
+}
+.p3{
+    padding-left: 59px;
+}
+.p4{
+    padding-left: 33px;
+}
+
+.java-logo{
+    width: 100px;
+}
+
+.html-logo{
+    width: 82px;
+}
+
+.css-logo{
+    width: 153px;
+}
+
+.mysql-logo{
+    width: 115px;
+}
+
+.a1{
+    position: relative;
+    top: 25vh;
+    left: 16vw;
+    margin: auto;
+}
+
+.a2{
+    position: relative;
+    top: -15vh;
+    right: -81vw;
+    margin: auto;
 }
 
 
