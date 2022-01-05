@@ -308,7 +308,7 @@ main>section:nth-child(4)>h1 {
 main>section:nth-child(4) h2{
     color: gainsboro;
     margin: auto;
-    left: 7vw;
+    left: 10vw;
     width: max-content;
     height: max-content;
     display: inline-block;
@@ -319,7 +319,7 @@ main>section:nth-child(4) h2{
 
 main>section:nth-child(4)>section section{
     top: 5vh;
-    height: 23vh;
+    height: 24vh;
     width: 60vw;
     display: flex;
     justify-content: space-evenly;
@@ -329,9 +329,11 @@ main>section:nth-child(4)>section section{
     left: 0;
     right: 0;
     margin: auto;
-    margin-top: 12vh;
-    border-radius: 25%;
+    margin-top: 14vh;
+    border-radius: 14%;
     background-color: lightgray;
+    font-size: 1.5vw;
+    border: 2px solid #585151;
 }
 
 main>section:nth-child(4)>section{
@@ -344,32 +346,42 @@ main>section:nth-child(4)>section{
 
 .p1{
     padding-left: 33px;
+    margin-top: 1px;
 }
 
 .p2{
     padding-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 6px;
 }
 .p3{
     padding-left: 59px;
+    margin-top: 7px;
 }
 .p4{
     padding-left: 33px;
+    margin-bottom: 6px;
 }
 
 .java-logo{
     width: 100px;
+    padding-top: 6vh;
 }
 
 .html-logo{
-    width: 82px;
+    width: 78px;
+    padding-top: 7vh;
 }
 
 .css-logo{
     width: 153px;
+    padding-top: 6vh;
 }
 
 .mysql-logo{
     width: 115px;
+    padding-top: 4vh;
+
 }
 
 .a1{
@@ -386,5 +398,54 @@ main>section:nth-child(4)>section{
     margin: auto;
 }
 
+.intellij-logo{
+    width: 82px;
+    padding-top: 9vh;
+}
+
+.eclipse-logo{
+    width: 100px;
+    padding-top: 10vh;
+}
+
+.Hibernate-logo{
+    margin-top: 63px;
+}
+
+.Angular-logo{
+    width: 84px;
+    padding-top: 10vh;
+}
+
+.Spring-logo{
+    width: 96px;
+    padding-top: 10vh;
+}
+
+.p5{
+    margin-top: 1px;
+}
+
+.p6{
+    padding-left: 25px;
+    margin-top: 6px;
+}
+
+.p7{
+    padding-left: 15px;
+    margin-bottom: 1px;
+}
+
+.p8{
+    padding-left: 8px;
+    margin-bottom: 37px;
+    margin-top: 2px;
+}
+
+.p9{
+    padding-left: 19px;
+    margin-bottom: 39px;
+    margin-top: 2px;
+}
 
 
