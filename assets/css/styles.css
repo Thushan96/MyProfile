@@ -386,16 +386,34 @@ main>section:nth-child(4)>section{
 
 .a1{
     position: relative;
-    top: 25vh;
-    left: 16vw;
+    top: 29vh;
+    left: 14vw;
     margin: auto;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 47px;
+    margin: 0 20px;
+    padding: 0 12px;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .a2{
     position: relative;
-    top: -15vh;
-    right: -81vw;
+    top: -18vh;
+    right: -78vw;
     margin: auto;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 47px;
+    margin: 0 20px;
+    padding: 0 12px;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .intellij-logo{
@@ -448,4 +466,275 @@ main>section:nth-child(4)>section{
     margin-top: 2px;
 }
 
+/*5th Section*/
+main>section:nth-child(5){
+    background-color: gainsboro;
+    position: relative;
+    height: 80vh;
+}
+
+main>section:nth-child(5)>h1 {
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    left: 3vw;
+    display: inline-block;
+    top: 4vh;
+    color: Black;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: yellow;
+}
+
+/*6th Section*/
+
+
+main>section:nth-child(6){
+    background-color: lightgray;
+    position: relative;
+    height: 100vh;
+}
+
+main>section:nth-child(6)>h1 {
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    left: 3vw;
+    display: inline-block;
+    top: 4vh;
+    color: Black;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: yellow;
+}
+
+/*1**/
+
+main>section:nth-child(6)>section:nth-child(2){
+    position: relative;
+    width: 70vw;
+    height: 20vh;
+    border-radius: 20%;
+    background-color: white;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 8vh;
+}
+
+main>section:nth-child(6)>section:nth-child(2)>img{
+    top: 0;
+    bottom: 0;
+    left: 5vw;
+    margin: auto;
+    position: absolute;
+}
+
+main>section:nth-child(6)>section:nth-child(2)>div{
+    top: 2vh;
+    right: 12vw;
+    margin: auto;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+
+main>section:nth-child(6)>section:nth-child(2)>div>pre{
+    font-size: x-large;
+}
+
+/*2**/
+
+main>section:nth-child(6)>section:nth-child(3){
+    position: relative;
+    width: 70vw;
+    height: 20vh;
+    border-radius: 20%;
+    background-color: white;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 11vh;
+}
+
+main>section:nth-child(6)>section:nth-child(3)>img{
+    top: 0;
+    bottom: 0;
+    left: 5vw;
+    margin: auto;
+    position: absolute;
+}
+
+main>section:nth-child(6)>section:nth-child(3)>div{
+    top: 2vh;
+    right: 9vw;
+    margin: auto;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+
+main>section:nth-child(6)>section:nth-child(3)>div>pre{
+    font-size: x-large;
+}
+
+/*3**/
+
+main>section:nth-child(6)>section:nth-child(4){
+    position: relative;
+    width: 70vw;
+    height: 20vh;
+    border-radius: 20%;
+    background-color: white;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 14vh;
+}
+
+main>section:nth-child(6)>section:nth-child(4)>img{
+    top: 0;
+    bottom: 0;
+    left: 5vw;
+    margin: auto;
+    position: absolute;
+}
+
+main>section:nth-child(6)>section:nth-child(4)>div{
+    top: 5vh;
+    right: 23vw;
+    margin: auto;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+
+main>section:nth-child(6)>section:nth-child(4)>div>pre{
+    font-size: x-large;
+}
+
+/****/
+
+main>section:nth-child(6)>div:nth-child(5){
+    height: 15vh;
+    width: max-content;
+    position: absolute;
+    bottom: 1vh;
+    margin: auto;
+    left: 10vw;
+}
+
+main>section:nth-child(6)>div:nth-child(5)>q{
+    font-family: 'The Nautigal', cursive;
+    font-size: 3.2vw;
+}
+
+main>section:nth-child(6)>div:nth-child(5) p{
+    right: 3vw;
+    bottom: -2vh;
+    display: inline-block;
+    position: absolute;
+    font-size: 2vw;
+}
+
+/*7th Section*/
+
+main>section:nth-child(7){
+    background-color: grey;
+    position: relative;
+    height: 100vh;
+}
+
+main>section:nth-child(7)>h1 {
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    left: 3vw;
+    display: inline-block;
+    top: 4vh;
+    color: white;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: yellow;
+}
+
+main>section:nth-child(7) img:nth-child(2){
+    position: absolute;
+    top: 12vh;
+}
+
+main>section:nth-child(7) img:nth-child(3){
+    position: absolute;
+    bottom: 7vh;
+    left: 37.1vw;
+}
+
+main>section:nth-child(7) img:nth-child(4){
+    position: absolute;
+    top: 12.0vh;
+    left: 37.1vw;
+}
+
+main>section:nth-child(7) img:nth-child(5) {
+    position: absolute;
+    top: 12.0vh;
+    left: 63.7vw;
+}
+
+main>section:nth-child(7) img:nth-child(6){
+    position: absolute;
+    top: 12.0vh;
+    left: 50.5vw;
+}
+
+/*8th section*/
+main>section:nth-child(8){
+    background-color: lightgray;
+    position: relative;
+    height: 200vh;
+}
+
+main>section:nth-child(8)>h1{
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    left: 3vw;
+    display: inline-block;
+    top: 4vh;
+    color: black;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: yellow;
+}
+
+main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(1){
+    width: max-content;
+    height: max-content;
+    position: relative;
+    font-family: 'IBM Plex Serif', serif;
+    display: inline-block;
+    margin: auto;
+    top: 9vh;
+    left: 1vw;
+}
+
+main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(2){
+    border: 2px solid red;
+    width: max-content;
+    height: max-content;
+    color: #917a7a;
+    position: relative;
+    top: 7vh;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(3){
+    border: 2px solid red;
+    width: max-content;
+    height: max-content;
+    color: #917a7a;
+    position: relative;
+    top: 12vh;
+}
 
