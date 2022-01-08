@@ -471,10 +471,12 @@ main>section:nth-child(4)>section{
 }
 
 /*5th Section*/
+
+
 main>section:nth-child(5){
     background-color: gainsboro;
     position: relative;
-    height: 80vh;
+    height: 85vh;
 }
 
 main>section:nth-child(5)>h1 {
@@ -488,6 +490,48 @@ main>section:nth-child(5)>h1 {
     position: relative;
     text-decoration:underline;
     text-decoration-color: yellow;
+}
+
+main>section:nth-child(5) div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    bottom: -8vh;
+}
+
+.imageOne{
+    border-radius:8px ;
+    width: 30vw;
+    height: 60vh;
+}
+
+.imageTwo{
+    border-radius:8px ;
+    width: 30vw;
+    height: 60vh;
+
+}
+
+.imageThree{
+    border-radius:8px ;
+    width: 30vw;
+    height: 60vh;
+}
+
+main>section:nth-child(5) button{
+    position: relative;
+    bottom: -12vh;
+    background-color: #917a7a;
+    height: 5vh;
+    border-radius: 9px;
+    left: 43vw;
+    text-decoration: none;
+}
+
+main>section:nth-child(5) button a{
+    text-decoration: none;
 }
 
 /*6th Section*/
@@ -905,4 +949,23 @@ main>section:nth-child(8)>form:nth-child(5) fieldset{
 .emailBtn:hover{
     color: darksalmon;
     cursor: pointer;
+}
+
+/*footer*/
+
+footer{
+    height: 6vh;
+    background-color: black;
+}
+
+
+
+footer p{
+    color: white;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 36vw;
+    font-size: 1.5vw;
+    top: 1vh;
 }

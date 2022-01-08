@@ -1,0 +1,48 @@
+section{
+    position: relative;
+    height: max-content;
+    background-color: #917a7a;
+}
+
+section>div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 98.1vw;
+    margin-bottom: 4vh;
+
+}
+
+section img{
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+}
+section>div:last-child{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 66.1vw;
+    margin-bottom: unset;
+}
+
+footer{
+    height: 4vh;
+    background-color: black;
+}
+
+
+
+footer p{
+    color: white;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 36vw;
+    font-size: 1.5vw;
+    top: 0.5vh;
+}
+
+
