@@ -1,4 +1,366 @@
-@media all and (min-width: 320px) and (max-width: 375px) {
+@media all and (min-width: 275px) and (max-width: 285px) {
+    header {
+    display: none
+    }
+
+    header > nav > ul {
+        padding-left: 0px;
+        font-size: 0.8rem;
+        width: 100vw;
+    }
+
+    /*1*/
+    main > section:nth-child(1) > div {
+        top: 2vh;
+    }
+
+    #pre02 {
+        margin-left: 35vw;
+    }
+
+    #pre03 {
+        font-size: 1.3em;
+    }
+
+    main > section:nth-child(1) > div > pre {
+        font-size: 3vh;
+    }
+
+    #hire {
+        left: 16vw;
+        font-size: large;
+    }
+
+    #pre05 {
+        margin-top: 5vh;
+        margin-left: 24vw;
+    }
+
+    #pre06 {
+        margin-left: 22vw;
+        margin-top: -3px;
+    }
+
+    main > section:nth-child(1) > div > pre {
+        font-size: 2vh;
+    }
+
+    main > section:nth-child(1) > section:nth-child(3) {
+        bottom: 0vh;
+        left: 12vw;
+        width: 9vw;
+    }
+
+    main > section:nth-child(1) > section:nth-child(2) > img {
+        left: -88px;
+        height: 42%;
+        bottom: 5px;
+    }
+
+    /*2*/
+    main > section:nth-child(2) > img {
+        left: 1vw;
+        top: 15vh;
+        width: 272px;
+    }
+
+    main > section:nth-child(2) > p {
+        font-size: 21px;
+        right: 4vw;
+        bottom: 14vh;
+        margin-left: 9vw;
+    }
+
+    main > section:nth-child(2) > a > button {
+        font-size: 14px;
+        left: -1px;
+        margin: auto;
+        position: relative;
+    }
+
+    main > section:nth-child(2) > a {
+        position: absolute;
+        right: 51vw;
+        bottom: 7vh;
+    }
+
+    /*3*/
+    main > section:nth-child(3) > div > h3 {
+        margin: 0;
+        top: -38px;
+    }
+
+    main > section:nth-child(3) > div img {
+        width: 140px;
+    }
+
+    .divservice1 {
+        top: 15vh;
+        left: 2vw;
+    }
+
+    .divservice2 {
+        top: 0px;
+        top: 224px;
+        left: -4px;
+    }
+
+    .divservice3 {
+        top: 57vh;
+        right: 16.5px;
+    }
+
+
+    main > section:nth-child(3) > div {
+        font-size: 12px;
+    }
+
+    /*4*/
+    main > section:nth-child(4) {
+        display: none;
+    }
+
+    /*5*/
+    main > section:nth-child(5) div {
+        flex-direction: column;
+    }
+
+    .imageOne {
+        width: 153px;
+        height: 19vh;
+
+    }
+
+    .imageTwo {
+        border-radius: 8px;
+        width: 54vw;
+        height: 19vh;
+    }
+
+    .imageThree {
+        border-radius: 8px;
+        width: 55vw;
+        height: 23vh;
+    }
+
+    /*6*/
+    main > section:nth-child(6) > section:nth-child(2) {
+        width: 94vw;
+        height: 83px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > img {
+        width: 69px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > div > pre {
+        font-size: 8px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > div {
+        top: 4vh;
+        right: 2vw;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) {
+        width: 92vw;
+        height: 14vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > div > pre {
+        font-size: 7.5px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > img {
+        width: 52px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > div {
+        right: 0;
+        bottom: 2px;
+
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) {
+        width: 92vw;
+        height: 14vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > div > pre {
+        font-size: 8.5px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > img {
+        width: 58px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > div {
+        right: 67px;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) > q {
+        font-size: 7vw;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) {
+        height: 15vh;
+        bottom: -2vh;
+        left: 3vw;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) p {
+        right: 3vw;
+        bottom: 7vh;
+        font-size: 4vw;
+    }
+
+    main>section:nth-child(6) {
+        height: 74vh;
+    }
+
+    /*7*/
+
+    main>section:nth-child(7) img:nth-child(2) {
+        top: 11vh;
+        width: 94vw;
+        height: 47vh;
+        left: 7px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(3) {
+        bottom: 1vh;
+        left: 2.1vw;
+        border-radius: 8px;
+        width: 175px;
+    }
+
+    main>section:nth-child(7) img:nth-child(4) {
+        position: absolute;
+        top: 58vh;
+        left: 2.1vw;
+        height: 144px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(5) {
+        position: absolute;
+        top: 58vh;
+        left: 50.7vw;
+        height: 281px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(6) {
+        display: none;
+    }
+
+    /*8*/
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(1){
+        font-size: 2vh;
+        left: -11.5vw;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(2) {
+        font-size: 1.3vh;
+        left: -26px;
+
+    }
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(3) {
+        top: 4vh;
+        font-size: 3vh;
+        left: -47px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(4) {
+        width: 61px;
+        left: 7vw;
+        top: 2vh;
+    }
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(5) {
+        left: -8vw;
+        top: 1vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(6) {
+        left: 4px;
+        top: 15vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(7) {
+        left: 9vw;
+        top: 3vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(8) {
+        left: 5vw;
+        top: 10vh;
+        width: 69px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>p:nth-child(9) {
+        left: 2.5vw;
+        top: 7vh;
+        font-size: 11px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>p:nth-child(10) {
+        top: 81px;
+        font-size: 3vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>section:nth-child(11) {
+        left: 50vw;
+        width: 1px;
+        top: 70px;
+    }
+
+    main>section:nth-child(8) hr {
+        bottom: -16vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4) {
+        bottom: -15vh;
+        left: 6vw;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4) {
+        bottom: -13vh;
+        left: 6vw;
+        font-size: 20px;
+    }
+
+    .emailname {
+        width: 68vw;
+    }
+
+    .emailAddress {
+        width: 67vw;
+    }
+
+    .Message {
+        width: 65vw;
+        height: 130px;
+    }
+
+    .emailBtn {
+        width: 15vw;
+        left: -19px;
+    }
+
+    footer {
+        height: 5vh;
+    }
+
+    footer p {
+        left: 26vw;
+        font-size: 3.5vw;
+    }
+
+}
+
+@media all and (min-width: 365px) and (max-width: 375px) {
     header {
         height: 4.5vh;
     }
@@ -286,18 +648,19 @@
     }
 
     main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(7) {
-        left: 12vw;
+        left: 14vw;
         top: 8vh;
     }
 
     main>section:nth-child(8)>div:nth-child(2)>img:nth-child(8) {
-        left: -55vw;
+        left: -61vw;
         top: 24vh;
     }
 
     main>section:nth-child(8)>div:nth-child(2)>p:nth-child(9) {
         left: 28.5vw;
         top: 13vh;
+        font-size: 2.2vh;
     }
 
     main>section:nth-child(8)>div:nth-child(2)>section:nth-child(11) {
@@ -347,9 +710,365 @@
 
     }
 
+@media all and (min-width: 355px) and (max-width: 367px) {
+    header {
+        height: 4.5vh;
+    }
+
+    main section {
+        width: 103%;
+    }
+
+    header > nav > ul {
+        padding-left: 0px;
+        font-size: 0.8rem;
+        width: 100vw;
+    }
+
+    /*1*/
+    main > section:nth-child(1) > div {
+        top: 6vh;
+    }
+
+    #pre02 {
+        margin-left: 35vw;
+    }
+
+    #pre03 {
+        font-size: 1.3em;
+    }
+
+    main > section:nth-child(1) > div > pre {
+        font-size: 3vh;
+    }
+
+    #hire {
+        left: 16vw;
+        font-size: large;
+    }
+
+    #pre05 {
+        margin-top: 5vh;
+        margin-left: 19vw;
+    }
+
+    #pre06 {
+        margin-left: 16vw;
+        margin-top: -3px;
+    }
+
+    main > section:nth-child(1) > div > pre {
+        font-size: 2vh;
+    }
+
+    main > section:nth-child(1) > section:nth-child(3) {
+        bottom: 0vh;
+        left: 12vw;
+        width: 9vw;
+    }
+
+    main > section:nth-child(1) > section:nth-child(2) > img {
+        left: -111px;
+        height: 47%;
+        bottom: 5px;
+    }
+
+    /*2*/
+    main > section:nth-child(2) > img {
+        left: 1vw;
+        top: 12vh;
+        width: 347px;
+    }
+
+    main > section:nth-child(2) > p {
+        font-size: 21px;
+        right: 8vw;
+        bottom: 12vh;
+        margin-left: 9vw;
+    }
+
+    main > section:nth-child(2) > a > button {
+        font-size: 17px;
+        left: -1px;
+        margin: auto;
+        position: relative;
+    }
+
+    main > section:nth-child(2) > a {
+        position: absolute;
+        right: 60vw;
+        bottom: 2vh;
+    }
+
+    /*3*/
+    main > section:nth-child(3) > div > h3 {
+        margin: 0;
+        top: -38px;
+    }
+
+    main > section:nth-child(3) > div img {
+        width: 140px;
+    }
+
+    .divservice1 {
+        top: 15vh;
+        left: 16vw;
+    }
+
+    .divservice2 {
+        top: 0px;
+        top: 224px;
+        left: -4px;
+    }
+
+    .divservice3 {
+        top: 53vh;
+        right: 59.5px;
+    }
 
 
-@media all and (min-width: 375px) and (max-width: 425px) {
+    main > section:nth-child(3) > div {
+        font-size: 12px;
+    }
+
+    /*4*/
+    main > section:nth-child(4) {
+        display: none;
+    }
+
+    /*5*/
+    main > section:nth-child(5) div {
+        flex-direction: column;
+    }
+
+    .imageOne {
+        width: 153px;
+        height: 19vh;
+
+    }
+
+    .imageTwo {
+        border-radius: 8px;
+        width: 38vw;
+        height: 19vh;
+    }
+
+    .imageThree {
+        border-radius: 8px;
+        width: 39vw;
+        height: 23vh;
+    }
+
+    /*6*/
+    main > section:nth-child(6) > section:nth-child(2) {
+        width: 94vw;
+        height: 83px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > img {
+        width: 88px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > div > pre {
+        font-size: 10px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > div {
+        top: 2vh;
+        right: 2vw;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) {
+        width: 92vw;
+        height: 14vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > div > pre {
+        font-size: 8.9px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > img {
+        width: 85px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > div {
+        right: 0
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) {
+        width: 92vw;
+        height: 14vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > div > pre {
+        font-size: 9.5px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > img {
+        width: 85px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > div {
+        right: 89px;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) > q {
+        font-size: 7vw;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) {
+        height: 15vh;
+        bottom: -2vh;
+        left: 3vw;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) p {
+        right: 3vw;
+        bottom: 4vh;
+        font-size: 4vw;
+    }
+
+    main>section:nth-child(6) {
+        height: 74vh;
+    }
+
+    /*7*/
+
+    main>section:nth-child(7) img:nth-child(2) {
+        top: 11vh;
+        width: 94vw;
+        height: 47vh;
+        left: 7px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(3) {
+        bottom: 4vh;
+        left: 2.1vw;
+        border-radius: 8px;
+        width: 175px;
+    }
+
+    main>section:nth-child(7) img:nth-child(4) {
+        position: absolute;
+        top: 58vh;
+        left: 2.1vw;
+        height: 144px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(5) {
+        position: absolute;
+        top: 58vh;
+        left: 50.7vw;
+        height: 281px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(6) {
+        display: none;
+    }
+
+    /*8*/
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(1){
+        font-size: 3vh;
+        left: -11.5vw;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(2) {
+        font-size: 1.7vh;
+        left: -10.9vw;
+    }
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(3) {
+        top: 4vh;
+        font-size: 3vh;
+        left: -47px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(4) {
+        width: 51px;
+        left: 10vw;
+        top: 2vh;
+    }
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(5) {
+        left: -5vw;
+        top: 1vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(6) {
+        left: -201px;
+        top: 22vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(7) {
+        left: 16vw;
+        top: 9vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(8) {
+        left: -65vw;
+        top: 24vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>p:nth-child(9) {
+        left: 28.5vw;
+        top: 13vh;
+        font-size: 1.9vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>p:nth-child(10) {
+        font-size: 3vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>section:nth-child(11) {
+        left: 22vw;
+    }
+
+    main>section:nth-child(8) hr {
+        bottom: -16vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4) {
+        bottom: -15vh;
+        left: 6vw;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4) {
+        bottom: -13vh;
+        left: 6vw;
+        font-size: 20px;
+    }
+
+    .emailname {
+        width: 68vw;
+    }
+
+    .emailAddress {
+        width: 67vw;
+    }
+
+    .Message {
+        width: 66vw;
+    }
+
+    .emailBtn {
+        width: 13vw;
+        left: -19px;
+    }
+
+    footer {
+        height: 5vh;
+    }
+
+    footer p {
+        left: 26vw;
+        font-size: 3.5vw;
+    }
+
+}
+
+@media all and (min-width: 380px) and (max-width: 425px) {
     main section {
         width: 103%;
     }
@@ -712,4 +1431,369 @@
     }
 
 }
+
+@media all and (min-width: 390px) and (max-width: 395px) {
+    main section {
+        width: 105%;
+    }
+
+    header {
+        height: 5.5vh;
+    }
+
+    header > nav > ul {
+        padding-left: 3vw;
+        font-size: 0.9rem;
+        width: 100vw;
+    }
+
+    /*1*/
+    main > section:nth-child(1) > div {
+        top: 12vh;
+        left: 6vh;
+    }
+
+    #pre02 {
+        margin-left: 35vw;
+    }
+
+    #pre03 {
+        font-size: 1.3em;
+    }
+
+    main > section:nth-child(1) > div > pre {
+        font-size: 3vh;
+    }
+
+    #hire {
+        left: 16vw;
+        font-size: large;
+    }
+
+    #pre05 {
+        margin-top: 5vh;
+        margin-left: 19vw;
+    }
+
+    #pre06 {
+        margin-left: 16vw;
+        margin-top: -3px;
+    }
+
+    main > section:nth-child(1) > div > pre {
+        font-size: 2vh;
+    }
+
+    main > section:nth-child(1) > section:nth-child(3) {
+        bottom: 8vh;
+        left: 12vw;
+        width: 9vw;
+    }
+
+    main > section:nth-child(1) > section:nth-child(2) > img {
+        left: -146px;
+        height: 47%;
+        bottom: 5px;
+    }
+
+    /*2*/
+    main > section:nth-child(2) > img {
+        left: 7vw;
+        top: 15vh;
+        width: 367px;
+    }
+
+    main > section:nth-child(2) > p {
+        font-size: 3.4vh;
+        right: 4vw;
+        bottom: 9vh;
+        margin-left: 9vw;
+    }
+
+    main > section:nth-child(2) > a > button {
+        font-size: 4vw;
+        left: -1px;
+        margin: auto;
+        position: relative;
+    }
+
+    main > section:nth-child(2) > a {
+        position: absolute;
+        right: 63vw;
+        bottom: 5vh;
+        width: 13vh;
+    }
+
+    /*3*/
+    main > section:nth-child(3) > div > h3 {
+        margin: 0;
+        top: -38px;
+    }
+
+    main > section:nth-child(3) > div img {
+        width: 22vh;
+    }
+
+    .divservice1 {
+        top: 15vh;
+        left: 16vw;
+    }
+
+    .divservice2 {
+        top: 34vh;
+        left: -37px;;
+    }
+
+    .divservice3 {
+        top: 57vh;
+        right: 25vw;
+    }
+
+
+    main > section:nth-child(3) > div {
+        font-size: 4vw;
+    }
+
+    /*4*/
+    main > section:nth-child(4) {
+        display: none;
+    }
+
+    /*5*/
+    main > section:nth-child(5) div {
+        flex-direction: column;
+    }
+
+    .imageOne {
+        width: 220px;
+        height: 21vh;
+
+    }
+
+    .imageTwo {
+        border-radius: 8px;
+        width: 52vw;
+        height: 21vh;
+    }
+
+    .imageThree {
+        border-radius: 8px;
+        width: 52vw;
+        height: 25vh;
+    }
+
+    main>section:nth-child(5) button {
+        bottom: -10vh;
+        height: 5vh;
+        left: 41vw;
+        font-size: 4vw;
+        height: 4vh;
+    }
+
+    /*6*/
+    main > section:nth-child(6) > section:nth-child(2) {
+        width: 94vw;
+        height: 83px;
+        margin-bottom: 2vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > img {
+        width: 88px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > div > pre {
+        font-size: 11px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > div {
+        top: 2vh;
+        right: 6vw;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) {
+        width: 92vw;
+        height: 11vh;
+        margin-bottom: 2vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > div > pre {
+        font-size: 9.5px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > img {
+        width: 85px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > div {
+        right: 2vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) {
+        width: 92vw;
+        height: 10vh;
+        margin-bottom: 2vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > div > pre {
+        font-size: 9.5px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > img {
+        width: 85px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > div {
+        right: 12vh;
+        top: 7vw;    }
+
+    main > section:nth-child(6) > div:nth-child(5) > q {
+        font-size: 7vw;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) {
+        height: 16vh;
+        bottom: -2vh;
+        left: 3vw;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) p {
+        right: 4vw;
+        bottom: 8vh;
+        font-size: 4vw;
+    }
+
+    main>section:nth-child(6) {
+        height: 74vh;
+    }
+
+    /*7*/
+
+    main>section:nth-child(7) img:nth-child(2) {
+        top: 11vh;
+        width: 94vw;
+        height: 52vh;
+        left: 3vh;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(3) {
+        bottom: 0.5vh;
+        left: 5.1vw;
+        border-radius: 8px;
+        width: 21vh;
+    }
+
+    main>section:nth-child(7) img:nth-child(4) {
+        position: absolute;
+        top: 63vh;
+        left: 6.1vw;
+        height: 21vh;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(5) {
+        position: absolute;
+        top: 63vh;
+        left: 50.7vw;
+        height: 37vh;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(6) {
+        display: none;
+    }
+
+    /*8*/
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(1){
+        font-size: 3vh;
+        left: -11.5vw;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(2) {
+        font-size: 1.5vh;
+        left: -7.9vw;
+    }
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(3) {
+        top: 4vh;
+        font-size: 3vh;
+        left: -19vw;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(4) {
+        width: 51px;
+        left: 10vw;
+        top: 2vh;
+    }
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(5) {
+        left: -5vw;
+        top: 1vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(6) {
+        left: -201px;
+        top: 22vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(7) {
+        left: 11vw;
+        top: 11vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(8) {
+        left: -57vw;
+        top: 24vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>p:nth-child(9) {
+        left: 28.5vw;
+        top: 16vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>p:nth-child(10) {
+        font-size: 3vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>section:nth-child(11) {
+        left: 22vw;
+    }
+
+    main>section:nth-child(8) hr {
+        bottom: -16vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4) {
+        bottom: -15vh;
+        left: 6vw;
+        font-size: 3vh;
+    }
+
+    .emailname {
+        width: 68vw;
+    }
+
+    .emailAddress {
+        width: 67vw;
+    }
+
+    .Message {
+        width: 66vw;
+    }
+
+    .emailBtn {
+        width: 17vw;
+        left: -34px;
+    }
+
+    footer {
+        height: 5vh;
+    }
+
+    footer p {
+        left: 26vw;
+        font-size: 3.5vw;
+    }
+
+}
+
 
