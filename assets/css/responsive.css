@@ -1,0 +1,339 @@
+@media all and (min-width: 320px) and (max-width: 375px) {
+    header {
+        height: 4.5vh;
+    }
+
+    header > nav > ul {
+        padding-left: 0px;
+        font-size: 0.8rem;
+        width: 100vw;
+    }
+
+    /*1*/
+    main > section:nth-child(1) > div {
+        top: 6vh;
+    }
+
+    #pre02 {
+        margin-left: 35vw;
+    }
+
+    #pre03 {
+        font-size: 1.3em;
+    }
+
+    main > section:nth-child(1) > div > pre {
+        font-size: 3vh;
+    }
+
+    #hire {
+        left: 16vw;
+        font-size: large;
+    }
+
+    #pre05 {
+        margin-top: 5vh;
+        margin-left: 19vw;
+    }
+
+    #pre06 {
+        margin-left: 16vw;
+        margin-top: -3px;
+    }
+
+    main > section:nth-child(1) > div > pre {
+        font-size: 2vh;
+    }
+
+    main > section:nth-child(1) > section:nth-child(3) {
+        bottom: 0vh;
+        left: 12vw;
+        width: 9vw;
+    }
+
+    main > section:nth-child(1) > section:nth-child(2) > img {
+        left: -90px;
+        height: 47%;
+        bottom: 5px;
+    }
+
+    /*2*/
+    main > section:nth-child(2) > img {
+        left: 1vw;
+        top: 12vh;
+        width: 367px;
+    }
+
+    main > section:nth-child(2) > p {
+        font-size: 21px;
+        right: 4vw;
+        bottom: 8vh;
+        margin-left: 9vw;
+    }
+
+    main > section:nth-child(2) > a > button {
+        font-size: 17px;
+        left: -1px;
+        margin: auto;
+        position: relative;
+    }
+
+    main > section:nth-child(2) > a {
+        position: absolute;
+        right: 60vw;
+        bottom: 2vh;
+    }
+
+    /*3*/
+    main > section:nth-child(3) > div > h3 {
+        margin: 0;
+        top: -38px;
+    }
+
+    main > section:nth-child(3) > div img {
+        width: 140px;
+    }
+
+    .divservice1 {
+        top: 15vh;
+        left: 16vw;
+    }
+
+    .divservice2 {
+        top: 0px;
+        top: 224px;
+        left: -4px;
+    }
+
+    .divservice3 {
+        top: 57vh;
+        right: 65.5px;
+    }
+
+
+    main > section:nth-child(3) > div {
+        font-size: 12px;
+    }
+
+    /*4*/
+    main > section:nth-child(4) {
+        display: none;
+    }
+
+    /*5*/
+    main > section:nth-child(5) div {
+        flex-direction: column;
+    }
+
+    .imageOne {
+        width: 153px;
+        height: 19vh;
+
+    }
+
+    .imageTwo {
+        border-radius: 8px;
+        width: 38vw;
+        height: 19vh;
+    }
+
+    .imageThree {
+        border-radius: 8px;
+        width: 39vw;
+        height: 23vh;
+    }
+
+    /*6*/
+    main > section:nth-child(6) > section:nth-child(2) {
+        width: 94vw;
+        height: 83px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > img {
+        width: 88px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > div > pre {
+        font-size: 11px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(2) > div {
+        top: 2vh;
+        right: 1vw;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) {
+        width: 92vw;
+        height: 14vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > div > pre {
+        font-size: 9.5px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > img {
+        width: 85px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > div {
+        right: 0
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) {
+        width: 92vw;
+        height: 14vh;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > div > pre {
+        font-size: 9.5px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > img {
+        width: 85px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > div {
+        right: 89px;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) > q {
+        font-size: 7vw;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) {
+        height: 15vh;
+        bottom: -2vh;
+        left: 3vw;
+    }
+
+    main > section:nth-child(6) > div:nth-child(5) p {
+        right: 3vw;
+        bottom: 4vh;
+        font-size: 4vw;
+    }
+
+    main>section:nth-child(6) {
+        height: 74vh;
+    }
+
+    /*7*/
+
+    main>section:nth-child(7) img:nth-child(2) {
+        top: 11vh;
+        width: 94vw;
+        height: 47vh;
+        left: 7px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(3) {
+        bottom: 1vh;
+        left: 2.1vw;
+        border-radius: 8px;
+        width: 175px;
+    }
+
+    main>section:nth-child(7) img:nth-child(4) {
+        position: absolute;
+        top: 58vh;
+        left: 2.1vw;
+        height: 144px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(5) {
+        position: absolute;
+        top: 58vh;
+        left: 50.7vw;
+        height: 281px;
+        border-radius: 8px;
+    }
+
+    main>section:nth-child(7) img:nth-child(6) {
+        display: none;
+    }
+
+    /*8*/
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(1){
+        font-size: 3vh;
+        left: -11.5vw;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(2) {
+        font-size: 1.7vh;
+        left: -10.9vw;
+    }
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(3) {
+        top: 4vh;
+        font-size: 3vh;
+        left: -47px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(4) {
+        width: 51px;
+        left: 10vw;
+        top: 2vh;
+    }
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(5) {
+        left: -5vw;
+        top: 1vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(6) {
+        left: -201px;
+        top: 22vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>pre:nth-child(7) {
+        left: 12vw;
+        top: 8vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>img:nth-child(8) {
+        left: -55vw;
+        top: 24vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>p:nth-child(9) {
+        left: 28.5vw;
+        top: 13vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(2)>section:nth-child(11) {
+        left: 22vw;
+    }
+
+    main>section:nth-child(8) hr {
+        bottom: -16vh;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4) {
+        bottom: -15vh;
+        left: 6vw;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4) {
+        bottom: -13vh;
+        left: 6vw;
+        font-size: 20px;
+    }
+
+    .emailname {
+        width: 68vw;
+    }
+
+    .emailAddress {
+        width: 67vw;
+    }
+
+    .Message {
+        width: 66vw;
+    }
+
+    .emailBtn {
+        width: 13vw;
+        left: -19px;
+    }
+
+    }

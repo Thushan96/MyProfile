@@ -250,7 +250,6 @@ main>section:nth-child(3)>div>h3>pre {
 background-color: black;
 }
 main>section:nth-child(3)>div{
-    top: 31vh;
     font-size: 1.57em;
     height: 50px;
     width: 250px;
@@ -258,6 +257,7 @@ main>section:nth-child(3)>div{
 }
 
 .divservice1{
+    top: 31vh;
     left: 8vw;
     position: absolute;
     color: white;
@@ -268,6 +268,7 @@ main>section:nth-child(3)>div{
 }
 
 .divservice2{
+    top: 31vh;
     right: 0;
     left: 0;
     position: absolute;
@@ -279,6 +280,7 @@ main>section:nth-child(3)>div{
 }
 
 .divservice3{
+    top: 31vh;
     right: 8.5vw;
     position: absolute;
     color: white;
@@ -476,7 +478,7 @@ main>section:nth-child(4)>section{
 main>section:nth-child(5){
     background-color: gainsboro;
     position: relative;
-    height: 85vh;
+    height: 87vh;
 }
 
 main>section:nth-child(5)>h1 {
