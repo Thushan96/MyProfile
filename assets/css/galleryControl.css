@@ -18,7 +18,14 @@ section img{
     width: 400px;
     height: 250px;
     border-radius: 8px;
+
 }
+
+section img:hover{
+    cursor: pointer;
+    box-shadow: 8px 7px 8px lightgray;
+}
+
 section>div:last-child{
     display: flex;
     align-items: center;
@@ -45,4 +52,70 @@ footer p{
     top: 0.5vh;
 }
 
+#as1[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as2[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as3[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as4[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as5[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as6[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as7[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as8[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as9[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#as10[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+#webLayout[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
 

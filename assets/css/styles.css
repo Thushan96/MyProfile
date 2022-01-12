@@ -34,7 +34,8 @@ header a:link {
 a:hover {
     text-decoration: underline;
     color: red;
-    background: black;
+    background: #4a3a3a;
+    border-radius: 8px;
 }
 
 a:active {
@@ -114,6 +115,7 @@ main>section:nth-child(1)>section:nth-child(3)>a{
     left: 7vw;
     font-size: xx-large;
     margin-top: 3vh;
+    animation: hire-me 3s infinite;
 }
 
 #hire:hover{
@@ -153,6 +155,7 @@ main>section:nth-child(1)>section:nth-child(3)>a{
 .Developer{
     color: red;
     font-size: 2em;
+    animation: developer 5s normal;
 }
 
 .fa-mobile-alt{
@@ -504,9 +507,27 @@ main>section:nth-child(5) div{
 }
 
 .imageOne{
-    border-radius:8px ;
+    border-radius:8px;
     width: 30vw;
     height: 60vh;
+}
+
+.imageOne:hover{
+    box-shadow: 12px 7px 12px #917a7a;
+}
+
+.imageTwo:hover{
+    box-shadow: 12px 7px 12px #917a7a;
+}
+.imageThree:hover{
+    box-shadow: 12px 7px 12px #917a7a;
+}
+
+.imageOne[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
 }
 
 .imageTwo{
@@ -516,10 +537,24 @@ main>section:nth-child(5) div{
 
 }
 
+.imageTwo[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
+}
+
 .imageThree{
     border-radius:8px ;
     width: 30vw;
     height: 60vh;
+}
+
+.imageThree[title]:hover:after{
+    color: red;
+    content: attr(title);
+    position: absolute;
+    left: 50px;
 }
 
 main>section:nth-child(5) button{
@@ -971,3 +1006,87 @@ footer p{
     font-size: 1.5vw;
     top: 1vh;
 }
+
+/*animations*/
+
+@keyframes my-name {
+    0%{
+        color: black;
+        animation-delay: 2s ;
+    }
+    25%{
+        color: sandybrown;
+        animation-delay: 2s ;
+    }
+    50%{
+        color: yellowgreen;
+        animation-delay: 2s ;
+    }
+    75%{
+        color: darkorange;
+        animation-delay: 2s;
+    }
+    100%{
+        color: yellow;
+        animation-delay: 2s ;
+    }
+
+}
+
+.name{
+    animation:my-name 15s alternate ;
+}
+
+@keyframes developer {
+    from{
+        color: black;
+        animation-delay: 3s;
+    }to{
+        color: red;
+        animation-delay: 5s;
+         }
+}
+
+
+@keyframes hire-me {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+        border: 6px solid springgreen;
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+        border-color: cornflowerblue;
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+        border-color: mediumaquamarine;
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+        border-color: grey;
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+        border-color: darkolivegreen;
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
