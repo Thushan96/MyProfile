@@ -1,4 +1,4 @@
-My portfolio created using html,css and javascript for a project in web developing.This consists of 6 basic sections as home,about me,education,skills,projects and contact me.
+created using html,css and javascript for a project in web developing.This consists of 6 basic sections as home,about me,education,skills,projects and contact me.
 
 Site Map URL :-https://www.gloomaps.com/7o6nPqy2hZ
 
