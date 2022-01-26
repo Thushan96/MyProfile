@@ -1,0 +1,129 @@
+.border-shadow{
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+}
+
+#item_bottom{
+    bottom: 0;!important;
+}
+#add-new{
+    background-color: #3dc1d3;
+}
+#add-new_Item{
+    background-color: #3dc1d3;
+}
+#save-customer{
+    background-color: #27ae60;
+}
+#save-Item{
+    background-color: #27ae60;
+}
+#update-customer{
+    background-color: #fed330;
+}
+#update-Item{
+    background-color: #fed330;
+}
+
+#update-item1{
+    background-color: #fed330;
+}
+
+#delete-customer{
+    background-color: #fc5c65;
+}
+#delete-item{
+    background-color: #fc5c65;
+}
+
+#delete-customer1{
+    background-color: #fc5c65;
+}
+#delete-item1{
+    background-color: #fc5c65;
+}
+
+#clear-customer{
+    background-color: #4b4b4b;
+}
+#clear-Item{
+    background-color: #4b4b4b;
+}
+#clear-customer1{
+    background-color: #4b4b4b;
+}
+#clear-item1{
+    background-color: #4b4b4b;
+}
+#clear-customer2{
+    background-color: #4b4b4b;
+}
+#clear-item2{
+    background-color: #4b4b4b;
+}
+#btn_customer_list{
+    background-color: #ced6e0;
+}
+#btn_Item_list {
+    background-color: #ced6e0;
+}
+
+#btn_customer_list1{
+    background-color: #ced6e0;
+}
+#btn_item_list1{
+    background-color: #ced6e0;
+}
+#font_color{
+    color: white;!important;
+}
+#font_color_Item{
+    color: white;!important;
+}
+#background_color{
+    background-color: rgb(255, 217, 102);
+}
+#background_color2{
+    background-color: rgb(230, 255, 247);
+}
+
+/**/
+
+#add-order{
+    background-color: #2ed573;
+}
+#update-order{
+    background-color: #27a3ae;
+}
+#delete-order{
+    background-color: #fc5c65;
+}
+#clear-order{
+    background-color: #4b4b4b;
+}
+#order_body{
+    background-color: #ced6e0;
+}
+#order_body2{
+    background-color: #ced6e0;
+}
+
+#order_btn_list{
+    background-color: #ced6e0;
+}
+#place-order{
+    background-color: #ffb315;
+}
+#place_order_list{
+    background-color: #ced6e0;
+}
+
+.font_sizes{
+    font-size: 4vh;!important;
+}
+
+/*footer*/
+footer{
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
