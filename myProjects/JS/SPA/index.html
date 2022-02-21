@@ -9,10 +9,10 @@
     <link href="assets/css/fonts/css/all.css" rel="stylesheet">
 </head>
 <body>
-<header >
+<header>
     <nav class="border-shadow navbar navbar sticky-top navbar-expand-lg navbar navbar-light rounded-bottom border-bottom border-dark bg-info">
         <div class="container-fluid">
-            <img src="Assets/images/zee_logo.png" alt="zee.png" height="40" class="d-inline-block align-text-top">
+            <img src="/myProjects/JS/SPA/Assets/images/zee_logo.png" alt="zee.png" height="40" class="d-inline-block align-text-top">
             <a class="navbar-brand ms-4"  href="#">Zee POS System</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,13 +43,12 @@
 <main >
     <section id="sec1" class="bg-image"
     style="
-    background-image: url('Assets/images/bgImage.jpg');
-    height: 100vh;
-    height: 100vh">
+    background-image: url('/myProjects/JS/SPA/Assets/images/bgImage.jpg');
+    height: 90vh;">
 
     </section>
 <!--    2-->
-    <section style="display:none; height: 100vh" id="sec2">
+    <section style="height: 90vh" id="sec2">
         <nav class="navbar navbar-light" id="background_color">
             <div class="container-fluid">
                 <form class="d-flex">
@@ -169,25 +168,13 @@
                     <th>Mobile</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>077-2345678</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Larry the Bird</td>
-                    <td>Moscow</td>
-                    <td>071-6745234</td>
-                </tr>
+                <tbody id="customer-Tbody">
                 </tbody>
             </table>
         </div>
     </section>
 <!--    3-->
-    <section id="sec3" style="display:none;height: 100vh">
+    <section id="sec3" style="height: 90vh">
         <nav class="navbar navbar-light" id="background_color2" >
             <div class="container-fluid">
                 <form class="d-flex">
@@ -197,7 +184,7 @@
             </div>
         </nav>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-info mt-1 ms-2" id="add-new_Item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="btn btn-info mt-1 ms-2" id="add-new_Item" data-bs-toggle="modal" data-bs-target="#ItemstaticBackdrop">
             New Item+
         </button>
 
@@ -249,7 +236,7 @@
         </form>
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-info d-inline-block position-relative ms-2" id="font_color_Item" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+        <button type="button" class="btn btn-info d-inline-block position-relative ms-2" id="font_color_Item" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
             Search
         </button>
 
@@ -308,29 +295,19 @@
                     <th>Quantity</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>I001</td>
-                    <td>Pizza Magharita</td>
-                    <td>800</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>I002</td>
-                    <td>Chicken Burgher</td>
-                    <td>450</td>
-                    <td>3</td>
-                </tr>
+                <tbody id="item-Tbody">
+
                 </tbody>
             </table>
         </div>
     </section>
 <!--4-->
-    <section id="sec4" style="display:none;">
+    <section id="sec4" >
         <section class="content mt-2">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row mb-2">
+<!--                    1-->
+                    <div class="col-md-5">
 
                         <div class="card card-primary" >
                             <div class="card-header text-white bg-secondary" id="order_header">
@@ -371,6 +348,8 @@
                                                 <select class="form-control" id="cmbItem" >
                                                     <option>Select Item ID </option>
                                                     <option>I001</option>
+                                                    <option>I002</option>
+                                                    <option>I003</option>
                                                 </select>
                                             </div>
                                             <div class="col-lg-6">
@@ -383,7 +362,7 @@
                                             <div class="col-lg-6 mt-2">
                                                 <input type="text" class="form-control dropdown-menu-lg-left" id="qtyOnHand-order" readonly="readonly" placeholder="Qty On Hand">
                                             </div>
-                                            <div class="col-lg-6 mt-2">
+                                            <div class="col mt-2">
                                                 <input type="text" class="form-control dropdown-menu-lg-right" id="unit-price-order" readonly="readonly"  placeholder="Unit Price">
                                             </div>
                                         </div>
@@ -403,55 +382,92 @@
                         </div>
                     </div>
                     <!--              2  -->
-                    <div class="col-md-6">
-                        <div class="card card-primary" id="order_body2">
-                            <div class="form-group mt-4 ms-2">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-5 font_sizes">
-                                        <label for="TotalPrice" ><b>Total :</b></label>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <input type="text" class="form-control dropdown-menu-lg-right" readonly="readonly" id="TotalPrice"  placeholder="1500RS/=">
+                    <div class="col-md-7">
+                    <section class="content">
+                        <div class="container-fluid">
+                            <div class="row">
+<!--                                1-->
+                                <div class="col-md-9">
+                                    <div class="card card-primary" id="order_body2">
+                                        <div class="form-group mt-4 ms-2">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-5 font_sizes">
+                                                    <label for="TotalPrice" ><b>Total :</b></label>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <input type="text" class="form-control dropdown-menu-lg-right" readonly="readonly" id="TotalPrice"  placeholder="1500RS/=">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mt-2 ms-2">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-5 font_sizes">
+                                                    <label for="Discount" ><b>Discount :</b></label>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <input type="text" class="form-control dropdown-menu-lg-right"  id="Discount"  placeholder="10">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mt-2 ms-2">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-5 font_sizes">
+                                                    <label for="Cash" ><b>Cash :</b></label>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <input type="text" class="form-control dropdown-menu-lg-right"  id="Cash"  placeholder="2000">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group mt-2 ms-2">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-5 font_sizes">
+                                                    <label for="Balance" ><b>Balance :</b></label>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <input type="text" class="form-control dropdown-menu-lg-right" readonly="readonly" id="Balance"  placeholder="510">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr>
+                                        <button type="button" id="place-order" class="btn text-white col-sm-3 col-md-4 col-lg-3 col-xxl-3 col-xl-3 mb-2 m-1"><b>Purchase</b></button>
                                     </div>
                                 </div>
-                            </div>
+<!--                                2-->
+                                <div class="row-md-6 row-sm-12">
+                                    <div class="mt-2">
+                                        <div class="card card-primary">
+                                            <div class="card-header bg-secondary" id="order_list_header">
+                                                <h3 class="card-title text-white">Order details</h3>
+                                            </div>
+                                            <div class="card-body" id="place_order_list">
+                                                <table class="table table-bordered table-hover " id="tbl-order">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>Item Code</th>
+                                                        <th>Name</th>
+                                                        <th>Quantity</th>
+                                                        <th>Unit Price</th>
+                                                        <th>Total</th>
+                                                        <th style="width: 40px"></th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                            <div class="form-group mt-4 ms-2">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-5 font_sizes">
-                                        <label for="Discount" ><b>Discount :</b></label>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <input type="text" class="form-control dropdown-menu-lg-right"  id="Discount"  placeholder="10">
-                                    </div>
                                 </div>
                             </div>
-
-                            <div class="form-group mt-4 ms-2">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-5 font_sizes">
-                                        <label for="Cash" ><b>Cash :</b></label>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <input type="text" class="form-control dropdown-menu-lg-right"  id="Cash"  placeholder="2000">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-group mt-4 ms-2">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-5 font_sizes">
-                                        <label for="Balance" ><b>Balance :</b></label>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <input type="text" class="form-control dropdown-menu-lg-right" readonly="readonly" id="Balance"  placeholder="510">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <hr>
-                            <button type="button" id="place-order" class="btn text-white col-sm-3 col-md-4 col-lg-3 col-xxl-3 col-xl-3 mb-3 m-2"><b>Purchase</b></button>
                         </div>
+                    </section>
+
                     </div>
                 </div>
                 <!---->
@@ -459,42 +475,104 @@
             </div>
             </div>
         </section>
-        <div class="m-3">
-            <div class="card card-primary">
-                <div class="card-header bg-secondary" id="order_list_header">
-                    <h3 class="card-title text-white">Order details</h3>
-                </div>
-                <div class="card-body" id="place_order_list">
-                    <table class="table table-bordered table-hover " id="tbl-order">
-                        <thead>
-                        <tr>
-                            <th>Item Code</th>
-                            <th>Name</th>
-                            <th>Quantity</th>
-                            <th>Unit Price</th>
-                            <th>Total</th>
-                            <th style="width: 40px"></th>
-                        </tr>
-                        <tr>
-                            <td>I001</td>
-                            <td>Burgher</td>
-                            <td>2</td>
-                            <td>450</td>
-                            <td>900</td>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
     </section>
 
 </main>
 <script src="Assets/js/script.js"></script>
+<script src="Assets/jQuery/jquery-3.6.0.min.js"></script>
+<script>
+    $("#sec1").css("display","block");
+    $("#sec2").css("display","none");
+    $("#sec3").css("display","none");
+    $("#sec4").css("display","none");
+
+    $("#home-nav").click(function (){
+        $("#sec1").css("display","block");
+        $("#sec2").css("display","none");
+        $("#sec3").css("display","none");
+        $("#sec4").css("display","none");
+    });
+
+    $("#customer-nav").click(function (){
+        $("#sec1").css("display","none");
+        $("#sec2").css("display","block");
+        $("#sec3").css("display","none");
+        $("#sec4").css("display","none");
+    });
+
+    $("#Item-nav").click(function (){
+        $("#sec1").css("display","none");
+        $("#sec2").css("display","none");
+        $("#sec3").css("display","block");
+        $("#sec4").css("display","none");
+    });
+
+    $("#ODetails-nav").click(function (){
+        $("#sec1").css("display","none");
+        $("#sec2").css("display","none");
+        $("#sec3").css("display","none");
+        $("#sec4").css("display","block");
+    });
+
+    // $("#add-order").click(function (){
+    //      var id=$("#cmbItem").val();
+    //      var qty=$("#qty-order").val();
+    //     $("#tbl-order").append("<tr><td>"+id+"</td><td>Pizza</td><td>"+qty+"</td><td>900</td><td>1800</td></tr>");
+    //
+    // });
+
+    $("#add-order").click(function (){
+        let id=$("#cmbItem").val();
+        let qty=$("#qty-order").val();
+        let row=`<tr><td>${id}</td><td>Pizza</td><td>${qty}</td><td>900</td><td>1800</td></tr>`
+        $("#tbl-order").append(row);
+        $("#tbl-order tr").click(function (){
+            console.log(this);
+        });
+
+    });
+
+
+    $("#save-customer").click(function (){
+        let id=$("#customer-id").val();
+       let name=$("#customer-name").val();
+       let address=$("#customer-address").val();
+       let mobile=$("#customer-mobile").val();
+
+        let row=` <tr><td>${id}</td><td>${name}</td><td>${address}</td><td>${mobile}</td></tr>`;
+        $("#customer-Tbody").append(row);
+
+        $("#customer-Tbody").click(function (){
+            console.log(this);
+        });
+
+    });
+
+    $("#save-Item").click(function(){
+        let code=$("#Item-Code").val();
+        let name=$("#Item-name").val();
+        let price=$("#Item-price").val();
+        let qty=$("#Item-quantity").val();
+        let row= `<tr><td>${code}</td><td>${name}</td><td>${price}</td><td>${qty}</td></tr>`;
+
+        $("#item-Tbody").append(row);
+
+        $("#item-Tbody tr").click(function(){
+            console.log(this)
+        });
+
+
+    });
+
+
+
+
+
+
+
+</script>
 </body>
-<footer class="container-fluid footer bg-black">
-    <h6 class="text-center text-muted mt-3"> Copyright © 2022 All right reserved</br> Website Powered BY Tshan</h6>
+<footer class="card-footer bg-black">
+    <small id="f1" class="text-muted  mt-3 "><b>Copyright © 2022 All right reserved Website Powered BY Tshan</b></small>
 </footer>
 </html>
