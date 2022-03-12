@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Que</title>
+    <link href='assets/Fontawesome/fonts/css/all.css' rel='stylesheet'>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <style>
+        body {
+            overflow: hidden;
+            background-color: #e2e1e1;
+        }
+
+        section > img {
+            height: 43vh;
+            width: 15vw;
+        }
+
+        section {
+            width: 75%;
+            display: flex;
+            position: absolute;
+            bottom: 10vh;
+            right: 0;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        button{
+            width: 10vw;
+            height: 5vh;
+            color: white;
+            border-color: white;
+            font-weight: bolder;
+
+        }
+
+        body > img {
+            position: absolute;
+            bottom: 9vh;
+            left: 0;
+            height: 40vh;
+        }
+    </style>
+</head>
+
+
+<body>
+
+<img alt="image" src="assets/image/cashier.png">
+
+<section>
+    <img alt="image" src="assets/image/1.gif">
+    <img alt="image" src="assets/image/2.gif">
+    <img alt="image" src="assets/image/3.gif">
+    <img alt="image" src="assets/image/4.gif">
+
+</section>
+
+
+<button id="startBtn" style="background-color: #165B33; ">Start</button>
+<button id="endBtn" style="background-color: red">End</button>
+<script src="assets/JQuery/jquery-3.6.0.min.js"></script>
+<script>
+
+    function animataions() {
+
+        let img1 = $("section>img:nth-child(1)").attr('src');
+        let img2 = $("section>img:nth-child(2)").attr('src');
+        let img3 = $("section>img:nth-child(3)").attr('src');
+        let img4 = $("section>img:nth-child(4)").attr('src');
+
+        $("section>img:nth-child(1)").attr('src', img4);
+        $("section>img:nth-child(2)").attr('src', img1);
+        $("section>img:nth-child(3)").attr('src', img2);
+        $("section>img:nth-child(4)").attr('src', img3);
+
+
+
+    }
+
+    let timerId;
+    $("#startBtn").click(function () {
+        clearInterval(timerId);
+        timerId = setInterval(animataions, 1200);
+        animataions();
+    });
+
+
+    $("#endBtn").click(function () {
+        clearInterval(timerId);
+    });
+
+</script>
+
+</body>
+</html>
