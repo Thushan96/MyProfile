@@ -725,9 +725,38 @@ main>section:nth-child(6)>div:nth-child(5) p{
 /*7th Section*/
 
 main>section:nth-child(7){
-    background-color: grey;
+    /*background-color: grey;*/
     position: relative;
     height: 100vh;
+}
+
+.hero{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+.hero>.carousel{
+    width: 253px;
+    margin: 84px auto 0;
+    overflow: visible;
+    top: -61px;
+}
+
+.carousel ul{
+    position: relative;
+    right: 39px;
+}
+.carousel img{
+    width: 25vw;
+    height: 75vh;
+    border: 3px solid black;
+}
+.carousel img{
+    -webkit-box-reflect: below;
+    border-radius: 7%;
 }
 
 main>section:nth-child(7)>h1 {
@@ -743,34 +772,34 @@ main>section:nth-child(7)>h1 {
     text-decoration-color: yellow;
 }
 
-main>section:nth-child(7) img:nth-child(2){
-    position: absolute;
-    top: 12vh;
-}
+/*main>section:nth-child(7) img:nth-child(2){*/
+/*    position: absolute;*/
+/*    top: 12vh;*/
+/*}*/
 
-main>section:nth-child(7) img:nth-child(3){
-    position: absolute;
-    bottom: 7vh;
-    left: 37.1vw;
-}
+/*main>section:nth-child(7) img:nth-child(3){*/
+/*    position: absolute;*/
+/*    bottom: 7vh;*/
+/*    left: 37.1vw;*/
+/*}*/
 
-main>section:nth-child(7) img:nth-child(4){
-    position: absolute;
-    top: 12.0vh;
-    left: 37.1vw;
-}
+/*main>section:nth-child(7) img:nth-child(4){*/
+/*    position: absolute;*/
+/*    top: 12.0vh;*/
+/*    left: 37.1vw;*/
+/*}*/
 
-main>section:nth-child(7) img:nth-child(5) {
-    position: absolute;
-    top: 12.0vh;
-    left: 63.7vw;
-}
+/*main>section:nth-child(7) img:nth-child(5) {*/
+/*    position: absolute;*/
+/*    top: 12.0vh;*/
+/*    left: 63.7vw;*/
+/*}*/
 
-main>section:nth-child(7) img:nth-child(6){
-    position: absolute;
-    top: 12.0vh;
-    left: 50.5vw;
-}
+/*main>section:nth-child(7) img:nth-child(6){*/
+/*    position: absolute;*/
+/*    top: 12.0vh;*/
+/*    left: 50.5vw;*/
+/*}*/
 
 /*8th section*/
 main>section:nth-child(8){
@@ -1088,5 +1117,7 @@ footer p{
         transform: translate(1px, -2px) rotate(-1deg);
     }
 }
+
+
 
 

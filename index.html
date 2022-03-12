@@ -26,6 +26,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=IBM+Plex+Serif:wght@600&family=Merriweather:ital@1&family=Oswald:wght@700&family=Readex+Pro:wght@200&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <link href="assets/css/jquery.flipster.min.css" rel="stylesheet">
+
 
 
 </head>
@@ -279,16 +281,29 @@
     </section>
 
 
-    <section>
+    <section class="hero">
 
         <h1>Gallery</h1>
 
-        <img src="assets/images/ChefMe.jpg" alt="thushan.jpg" width="403">
-        <img src="assets/images/Latestpic.jpg" alt="thushan.jpg" width="363">
-        <img src="assets/images/waterfallMe.jpg" alt="thushan.jpg" width="180">
-        <img src="assets/images/damMe.jpg" alt="thushan.jpg" height="507">
-        <img src="assets/images/BikeMe.jpg" alt="thushan.jpg" width="180">
-
+            <div class="carousel">
+                <ul>
+                    <li>
+                        <img src="assets/images/ChefMe.jpg" alt="thushan.jpg">
+                    </li>
+                    <li>
+                        <img src="assets/images/Latestpic.jpg" alt="thushan.jpg">
+                    </li>
+                    <li>
+                        <img src="assets/images/waterfallMe.jpg" alt="thushan.jpg">
+                    </li>
+                    <li>
+                        <img src="assets/images/damMe.jpg" alt="thushan.jpg">
+                    </li>
+                    <li>
+                        <img src="assets/images/BikeMe.jpg" alt="thushan.jpg">
+                    </li>
+                </ul>
+            </div>
 
     </section>
 
@@ -390,6 +405,15 @@
 
 
 </footer>
+<script src="myProjects/JS/SPA/Assets/jQuery/jquery-3.6.0.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/assets/css/jquery.flipster.min.js"></script>
+<script>
+    $('.carousel').flipster({
+        style:'carousel',
+    });
+
+</script>
 
 </body>
 </html>
