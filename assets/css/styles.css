@@ -753,11 +753,10 @@ main>section:nth-child(7){
     width: 25vw;
     height: 75vh;
     border: 3px solid black;
-}
-.carousel img{
     -webkit-box-reflect: below;
     border-radius: 7%;
 }
+
 
 main>section:nth-child(7)>h1 {
     margin: auto;
